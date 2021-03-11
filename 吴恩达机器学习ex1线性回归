@@ -1,0 +1,14 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+1 简单练习
+输出一个5*5的单位矩阵
+
+A = np.eye(5)
+A
+array([[1., 0., 0., 0., 0.],
+       [0., 1., 0., 0., 0.],
+       [0., 0., 1., 0., 0.],
+       [0., 0., 0., 1., 0.],
+       [0., 0., 0., 0., 1.]])
